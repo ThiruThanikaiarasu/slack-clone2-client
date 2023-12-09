@@ -1,9 +1,12 @@
 import React from 'react'
 import './App.css'
+import Sidebar from './pages/Sidebar'
 
 const App = () => {
     return (
-        <div>Slack Clone 2.0</div>
+        <React.Fragment>
+            <Sidebar/>  
+        </React.Fragment>
     )
 }
 
