@@ -110,6 +110,85 @@ body{
     padding: 1em;
 }
 
+/* ChannelWindow 
+------------------------------ */
+.channel-window header {
+    height: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #503255;
+}
+
+.title-container {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container h3 {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.title {
+    text-overflow: ellipsis;
+}
+
+.channel-window main {
+    width: 100%;
+    height: 92%;
+}
+
+.channel__thread {
+    width: 100%;
+    height: 10%;
+}
+
+.channel__channels {
+    min-height: fit-content;
+    max-height: 45%;
+    padding: .75rem 0;
+}
+
+.channels-title {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.channels-title span {
+    font-size: 0.8em;
+    padding-right: 0.5em;
+}
+
+.channels-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-transform: lowercase;
+    margin-bottom: 0.3rem;
+}
+
+.channels-list span {
+    font-size: 0.9em;
+    padding-right: 0.6rem;
+}
+
+.channels-list li {
+    font-size: 1.1em;
+}
+
+.channel__dm {
+    min-height: fit-content;
+    max-height: 45%;
+    padding: .75rem 0;
+}
+
+
 
 
 
